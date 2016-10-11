@@ -1,0 +1,88 @@
+Wrote this log tool, to make loggin automated. 	11 okt 2016	11:05
+This will save some trees and I will be able to read it back
+
+Transrate test #2	11 okt 2016	11:07
+Merged all reads by pair
+10 Threads used
+Start time = 9:30
+End time = 10:24
+Results look okay, I may need to compare with the untrimmed version. 	11 okt 2016	11:10
+On first examination, it looks like there is no
+change in chimeric sequences (still 28%)
+
+On the log system	11 okt 2016	11:10
+I think it is best to start using titles for my logs
+As they will have the timestamps
+
+Log System update	11 okt 2016	11:12
+I added a blank line after each log entry
+to keep things readble
+
+Transrate test result analysis	11 okt 2016	11:25
+	Looks like the filtering wasn't that successful.
+	Somehow, even more segmented contigs
+	were present. I will look into the differences
+
+Transrate absolute quality analysis	11 okt 2016	11:39
+	I need to find some kind of benchmark for transrate
+	to see what values are acceptable and to make
+	a report on the quality of the test results
+
+Transrate Test #1 Results analysis	11 okt 2016	11:42
+	Apparently, Transrate provides an alternative assembly
+	with poorly covered contigs remove. Might
+	want to look into that
+
+Transrate Test #1 Results	11 okt 2016	11:46
+	The VV and SS results are not to be taken 
+	that seriously, since I only used the reads
+	of one individual. I need to pair the reads
+	and try again. I will call this TRun1VV and
+	TRun1SS
+
+TRun1VV	11 okt 2016	15:04
+	10 Threads
+	Used merged VV reads
+	Used 50AAFPKM Assembly
+
+
+TRun1VV 	11 okt 2016	15:44
+	Done after 30 minutes
+	I will wait with analyses until I've done 
+	All other runs
+
+Change in plan	11 okt 2016	15:53
+	Will execute the cross-form.
+	Currently running: 
+		TRun1VV-AdF2
+		All VV reads vs. the global assembly
+
+
+Enter your log here	11 okt 2016	16:13
+
+	11 okt 2016	16:13
+
+Enter your log here	11 okt 2016	16:16
+
+123	11 okt 2016	16:16
+
+Enter your log here	11 okt 2016	16:16
+
+1234	11 okt 2016	16:16
+
+Enter your log here	11 okt 2016	16:17
+
+12345	11 okt 2016	16:17
+
+Log System	11 okt 2016	16:20
+	Added a functionality to the log system that
+	enables the user to doubleclick a log entry
+	and shows that log text in another window
+
+TRun1_VV 	11 okt 2016	16:40
+	Wrote bash script to process the V1-V5
+	against VV and VVSS (AdF2) assemblies.
+	Checking back tomorrow
+
+
+
